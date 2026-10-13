@@ -1,0 +1,4 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Job Application Agent v2</title><link rel="stylesheet" href="/app.css"></head><body>
+<header><div><h1>Job Application Agent <b>v2</b></h1><p>Jobs finden · matchen · Bewerbung vorbereiten · Freigabe behalten</p></div><button id="scan">Jobs aktualisieren</button></header>
+<main><section id="stats" class="stats"></section><section class="filters"><input id="q" placeholder="Technologie, Firma, Titel …"><input id="score" type="number" min="0" max="99" value="50"><select id="status"><option value="">Alle Status</option></select><button id="filter">Filtern</button></section><div id="msg"></div><section id="jobs"></section></main>
+<dialog id="detail"><div id="detailBody"></div><button onclick="detail.close()">Schliessen</button></dialog><script src="/app.js"></script></body></html>

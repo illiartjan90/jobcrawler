@@ -1,0 +1,6 @@
+**/bin/
+**/obj/
+**/data/*.db
+.env
+appsettings.Development.json
+**/data/imports/**/*.json

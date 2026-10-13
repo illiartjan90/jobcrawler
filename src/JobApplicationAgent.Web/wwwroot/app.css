@@ -1,0 +1,49 @@
+:root{font-family:Inter,system-ui,sans-serif;color:#172033;background:#f4f7fb}*{box-sizing:border-box}body{margin:0}header{padding:28px max(5vw,24px);background:#fff;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #dde4ee}h1{margin:0;font-size:26px}h1 b{color:#1769e0}header p{margin:6px 0 0;color:#667085}button{background:#1769e0;color:#fff;border:0;border-radius:9px;padding:11px 16px;font-weight:700;cursor:pointer}main{max-width:1180px;margin:24px auto;padding:0 20px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat,.job,.filters{background:#fff;border:1px solid #e1e7ef;border-radius:12px;padding:16px}.stat strong{font-size:24px;display:block}.filters{display:flex;gap:10px;margin:18px 0}.filters input,.filters select,select{padding:10px;border:1px solid #ccd5e0;border-radius:8px}.filters #q{flex:1}.job{margin:12px 0}.jobtop{display:flex;justify-content:space-between;gap:20px}.score{font-size:25px;font-weight:800;color:#1769e0}.meta{color:#667085;margin:5px 0}.tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.tag{background:#eef4ff;padding:4px 8px;border-radius:20px;font-size:12px}.missing{background:#fff1f0}.actions{display:flex;gap:8px;flex-wrap:wrap}.actions a,.actions button{font-size:13px;text-decoration:none}.secondary{background:#475467}dialog{border:0;border-radius:14px;max-width:760px;width:90%;padding:24px}#msg{color:#667085}@media(max-width:700px){.stats{grid-template-columns:1fr 1fr}.filters{flex-direction:column}.jobtop{flex-direction:column}}
+.analysis-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.analysis-score {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1769e0;
+}
+
+.analysis-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0 28px;
+}
+
+.analysis-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.analysis-table td:first-child {
+    width: 160px;
+    font-weight: 600;
+}
+
+.job-description {
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.hint {
+    font-size: 0.9rem;
+    color: #667085;
+    margin-top: 12px;
+}
+
+#ai {
+    white-space: pre-wrap;
+    line-height: 1.5;
+    background: #f5f7fa;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 12px;
+}

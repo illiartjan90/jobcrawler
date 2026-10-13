@@ -1,0 +1,18 @@
+[
+  {
+    "source": "Indeed",
+    "url": "https://ch.indeed.com/viewjob?jk=0123456789abcdef",
+    "title": "Software Engineer .NET",
+    "company": "Beispiel AG",
+    "location": "Zürich",
+    "description": "Stellenbeschreibung hier einfügen …",
+    "publishedAt": "2026-10-01T08:00:00Z"
+  },
+  {
+    "source": "jobup.ch",
+    "url": "https://www.jobup.ch/fr/emplois/detail/00000000-0000-0000-0000-000000000000/",
+    "title": "Développeur .NET",
+    "company": "Exemple SA",
+    "location": "Genève"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "name": "Artjan Illi",
+  "headline": "Full-Stack Software Developer | C#/.NET | React | PHP/Symfony | Cyber Security",
+  "email": "artjan_9@hotmail.com",
+  "phone": "+41 798333127",
+  "location": "Fahrwangen",
+  "links": ["https://www.linkedin.com/in/artjan-illi-20a943116/", "https://github.com/illiartjan90"],
+  "skills": [
+    "C#", ".NET", ".NET MAUI", "WPF", "ASP.NET", "PHP", "Symfony", "Doctrine",
+    "JavaScript", "TypeScript", "React", "Vue", "HTML", "HTML5", "CSS", "SQL",
+    "MySQL", "MSSQL", "REST"
+  ],
+  "languages": ["Deutsch", "Englisch", "Tamil"],
+  "experience": [
+    {
+      "employer": "twofold AG",
+      "role": "Berufsbildner Applikationsentwicklung",
+      "period": "01/2024–heute",
+      "skills": ["HTML", "CSS", "JavaScript", "SQL", ".NET", "C#"],
+      "summary": "Erstellung von Ausbildungsinhalten und Tutorials, Unterstützung von Lernenden, Serverkonfiguration sowie First- und Second-Level-Support."
+    },
+    {
+      "employer": "Aquantic",
+      "role": "Software Developer",
+      "period": "04/2023–12/2024",
+      "skills": [".NET MAUI", "WPF", "REST", "SQL", ".NET", "C#"],
+      "summary": "Entwicklung von .NET-Anwendungen und Schnittstellen."
+    },
+    {
+      "employer": "WEMF",
+      "role": "Software Developer",
+      "period": "06/2022–03/2023",
+      "skills": ["React", "TypeScript", "SQL", ".NET", "C#"],
+      "summary": "Full-Stack-Entwicklung mit React, TypeScript und .NET."
+    },
+    {
+      "employer": "Assepro",
+      "role": "Software Developer",
+      "period": "04/2021–04/2022",
+      "skills": ["Symfony", "MySQL", "PHP", "Doctrine", "React", "CSS", "HTML", "Twig"],
+      "summary": "Webentwicklung mit Symfony und React."
+    },
+    {
+      "employer": "umana-ehealth",
+      "role": "Software Developer",
+      "period": "11/2020 – 03/2021",
+      "skills": ["PHP", "Symfony", "Vue"],
+      "summary": "Web- und Softwareentwicklung mit PHP, Symfony und Vue."
+    },
+    {
+      "employer": "EOSCOP",
+      "role": "Software Developer",
+      "period": "06/2020 – 10/2020",
+      "skills": ["C#", "PHP", "VB", "JavaScript", "SQL", "ASP.NET", "CSS"],
+      "summary": "Software- und Webentwicklung mit C#, ASP.NET, PHP, JavaScript und SQL."
+    },
+    {
+      "employer": "OF-Software",
+      "role": "Software Developer",
+      "period": "07/2018 – 05/2020",
+      "skills": ["C#", "Delphi", "JavaScript", "SQL", "Sencha"],
+      "summary": "Softwareentwicklung mit C#, Delphi, JavaScript und SQL."
+    },
+    {
+      "employer": "spar-mit",
+      "role": "Web Developer",
+      "period": "06/2017 – 06/2018",
+      "skills": ["PHP", "MySQL", "CodeIgniter", "HTML", "JavaScript", "jQuery", "CSS", "Sass"],
+      "summary": "Webentwicklung mit PHP, MySQL, JavaScript, HTML und CSS."
+    },
+    {
+      "employer": "creants",
+      "role": "Software Developer",
+      "period": "07/2016 – 04/2017",
+      "skills": ["ColdFusion", "MSSQL"],
+      "summary": "Software- und Datenbankentwicklung."
+    }
+  ],
+  "education": [
+    { "school": "FFHS", "program": "BSc Cyber Security", "period": "2024–heute" },
+    { "school": "IBZ", "program": "HF Applikationsentwickler", "period": "2020–2022" },
+    { "school": "ZLI", "program": "Informatiker EFZ", "period": "2013–2015" }
+  ]
+}

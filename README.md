@@ -12,7 +12,7 @@ C#/.NET-10-Webanwendung für Job-Aggregation, Matching, Bewerbungsunterlagen und
 - Skill-/Gap-Matching und Filter
 - Status-Pipeline: Discovered → Shortlisted → Prepared → Approved → Applied → Interview → Offer/Rejected
 - Master-CV als strukturierte Faktenbasis
-- DOCX-CV und DOCX-Anschreiben
+- CV und Anschreiben als DOCX und PDF
 - optionale OpenAI-Responses-API für Jobanalyse/Anschreiben
 - Hintergrundscanner
 - Web-Dashboard
@@ -25,7 +25,6 @@ dotnet run --urls http://0.0.0.0:5286
 ```
 Dann http://localhost:5286 öffnen.
 
-<!-- Screenshot: Bild unter docs/dashboard.png ablegen und die nächste Zeile einkommentieren -->
 ![Dashboard](docs/dashboard.png)
 
 ## Tests
@@ -68,5 +67,4 @@ Die Anwendung kann Unterlagen vorbereiten und den Status verwalten. Ein endgült
 `/api/job/cv` und `/api/job/cover-letter` liefern mit `&format=pdf` ein PDF (QuestPDF, `dotnet add package QuestPDF`), sonst DOCX. Der CV ist ATS-freundlich aufgebaut (einspaltig, Standard-Überschriften, reiner Text). Kontaktdaten stehen im Profil (`email`, `phone`, `location`, `links`).
 
 ## Profil
-`Application/CandidateProfileFactory.cs` enthält die strukturierte Master-CV-Basis. Bitte vor produktiver Nutzung gegen den Original-CV prüfen/ergänzen.
-# jobcrawler
+Das Profil liegt in data/candidate-profile.json und wird über CandidateProfileLoader geladen und validiert.

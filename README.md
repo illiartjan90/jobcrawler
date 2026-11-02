@@ -1,5 +1,9 @@
 # Job Application Agent v2
 
+[![CI](https://github.com/illiartjan90/jobcrawler/actions/workflows/ci.yml/badge.svg)](https://github.com/illiartjan90/jobcrawler/actions/workflows/ci.yml)
+![.NET 10](https://img.shields.io/badge/.NET-10-512BD4)
+![Tests: MSTest](https://img.shields.io/badge/tests-MSTest-blue)
+
 C#/.NET-10-Webanwendung für Job-Aggregation, Matching, Bewerbungsunterlagen und Bewerbungs-Tracking.
 
 ## Enthalten
@@ -20,6 +24,17 @@ dotnet restore
 dotnet run --urls http://0.0.0.0:5286
 ```
 Dann http://localhost:5286 öffnen.
+
+<!-- Screenshot: Bild unter docs/dashboard.png ablegen und die nächste Zeile einkommentieren -->
+<!-- ![Dashboard](docs/dashboard.png) -->
+
+## Tests
+
+```bash
+dotnet test JobApplicationAgent.slnx
+```
+
+Unit-Tests mit MSTest unter `tests/JobApplicationAgent.Tests` (Normalisierung der Jobdaten, Profil-Validierung, Anforderungsanalyse, Status-Pipeline). Die GitHub-Actions-Pipeline baut und testet bei jedem Push auf `main`.
 
 ## KI optional aktivieren
 Ohne KI verwendet das Anschreiben einen Standardtext. Schlüssel nie in Git speichern.

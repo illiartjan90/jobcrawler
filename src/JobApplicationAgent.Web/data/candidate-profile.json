@@ -1,8 +1,8 @@
 {
   "name": "Artjan Illi",
   "headline": "Full-Stack Software Developer | C#/.NET | React | PHP/Symfony | Cyber Security",
-  "email": "artjan_9@hotmail.com",
-  "phone": "+41 798333127",
+  "email": "artjanilli@gmail.com",
+  "phone": "+41 79 833 31 27",
   "location": "Fahrwangen",
   "links": ["https://www.linkedin.com/in/artjan-illi-20a943116/", "https://github.com/illiartjan90"],
   "skills": [
@@ -15,7 +15,7 @@
     {
       "employer": "twofold AG",
       "role": "Berufsbildner Applikationsentwicklung",
-      "period": "01/2024–heute",
+      "period": "01/2025–heute",
       "skills": ["HTML", "CSS", "JavaScript", "SQL", ".NET", "C#"],
       "summary": "Erstellung von Ausbildungsinhalten und Tutorials, Unterstützung von Lernenden, Serverkonfiguration sowie First- und Second-Level-Support."
     },

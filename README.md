@@ -26,7 +26,7 @@ dotnet run --urls http://0.0.0.0:5286
 Dann http://localhost:5286 öffnen.
 
 <!-- Screenshot: Bild unter docs/dashboard.png ablegen und die nächste Zeile einkommentieren -->
-<!-- ![Dashboard](docs/dashboard.png) -->
+![Dashboard](docs/dashboard.png)
 
 ## Tests
 
